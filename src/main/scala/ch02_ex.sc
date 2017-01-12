@@ -66,7 +66,7 @@ object ch02_ex {
   xtonth(2, 4)
   xtonth(2, 10)
 
-  import Implicits.DateInterpolator
+  import Helpers.DateInterpolator
   val year = 2017
   val month = 1
   val day = 27
